@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-4JTP3DCM4NA</Machine>
+    <WindowsUser>Matt</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>3be4ebc2-63f3-4d7f-bbd8-ab0efba2ea1f</PackageIdentityName>
+    <RegisteredManifestChecksum>3F16480E1F27E7F6A18B83E902A6384BE00CFE0496F3AAA6AD3397FFF6D8BC2F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3be4ebc2-63f3-4d7f-bbd8-ab0efba2ea1f_1.0.0.0_neutral__4bha6t8v6mmqe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3be4ebc2-63f3-4d7f-bbd8-ab0efba2ea1f_4bha6t8v6mmqe!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3be4ebc2-63f3-4d7f-bbd8-ab0efba2ea1f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Matt</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-11T17:55:48.859</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\chart.css">
+      <PackagePath>chart.css</PackagePath>
+      <Modified>2015-06-05T19:05:09.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2015-06-02T19:32:29.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2015-06-01T19:57:29.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\pages\trends\trends.css">
+      <PackagePath>pages\trends\trends.css</PackagePath>
+      <Modified>2015-06-11T18:42:39.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-06-11T18:00:30.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\js\helpers.js">
+      <PackagePath>js\helpers.js</PackagePath>
+      <Modified>2015-06-11T18:55:04.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2015-06-01T19:42:41.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2015-06-11T17:39:22.872</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\data.js">
+      <PackagePath>data.js</PackagePath>
+      <Modified>2015-06-12T19:08:41.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\pages\trends\trends.js">
+      <PackagePath>pages\trends\trends.js</PackagePath>
+      <Modified>2015-06-11T17:42:42.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2015-06-11T18:20:30.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2015-06-11T18:20:11.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\pages\trends\trends.html">
+      <PackagePath>pages\trends\trends.html</PackagePath>
+      <Modified>2015-06-11T18:42:39.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBP\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-06-11T17:55:47.946</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

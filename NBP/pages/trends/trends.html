@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="/pages/trends/trends.css" rel="stylesheet" />   
+    <link href="//Microsoft.WinJS.2.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+    <script src="/data.js"></script>
+    <script src="/js/helpers.js"></script>
+    <script src="/pages/trends/trends.js"></script>
+</head>
+<body>
+	<div id="wrapper-trends">
+		<div id="pickers">
+			<div id="pickersGrid">
+				<div id="pickersColumn">
+					<div>
+						<div>Data początkowa</div> <div id="fromDate" data-win-control="WinJS.UI.DatePicker"></div>
+					</div>
+					<div>
+						<div>Data końcowa</div>   <div id="toDate" data-win-control="WinJS.UI.DatePicker"></div>
+					</div>
+				</div>
+				<div id="tools">
+					<button id="saveFile">Zapisz do pliku</button>
+					<button id="draw">Rysuj</button>
+				</div>
+			</div>
+		</div>
+        <canvas id="chart"></canvas>
+	
+	</div>
+</body>
+</html>

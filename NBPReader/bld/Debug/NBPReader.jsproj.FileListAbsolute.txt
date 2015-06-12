@@ -1,0 +1,15 @@
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bin\Debug\ReverseMap\resources.pri
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bin\Debug\AppxManifest.xml
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bin\Debug\NBPReader.build.appxrecipe
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bld\Debug\priconfig.xml
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bld\Debug\priconfig.xml.intermediate
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bld\Debug\layout.resfiles
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bld\Debug\layout.resfiles.intermediate
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bld\Debug\resources.resfiles
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bld\Debug\resources.resfiles.intermediate
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bld\Debug\pri.resfiles
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bld\Debug\pri.resfiles.intermediate
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bld\Debug\qualifiers.txt
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bld\Debug\qualifiers.txt.intermediate
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bld\Debug\ProjectArchitectures.txt

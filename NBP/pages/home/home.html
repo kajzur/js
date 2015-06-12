@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>NBP</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- NBP references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/helpers.js"></script>
+    <script src="home.js"></script>
+</head>
+<body>
+    <div id="leftListItem" data-win-control="WinJS.Binding.Template">
+        <div style="width: 150px; height: 100px; display: flex; align-items: center; justify-content: center; ">
+            <div>
+                <h2 style="" data-win-bind="innerText: date"></h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="bottomListItem" data-win-control="WinJS.Binding.Template">
+        <div style="width: 150px; height: 90px;">
+            <div>
+                <h3 style="" data-win-bind="innerText: nazwaWaluty"></h3>
+                <h4>
+                    <span data-win-bind="innerText: kurs_sredni"></span>
+                    <span> zł za </span>
+                    <span data-win-bind="innerText: przelicznik"></span>
+                </h4>
+            </div>
+        </div>
+    </div>
+
+        <div id="wrapper">
+            <div id="leftListHeader">
+                <p class="header">Wybierz datę</p>
+                <div id="leftList"
+                     data-win-control="WinJS.UI.ListView" data-win-options="{
+							itemTemplate: select('#leftListItem'), layout : {type: WinJS.UI.ListLayout},selectionMode: 'single' }">
+                </div>
+            </div>
+            <div id="bottomListHeader">
+                <p class="header"><span id="selectedDate"></span></p>
+                <div id="bottomList"
+                     data-win-control="WinJS.UI.ListView" data-win-options="{
+							itemTemplate: select('#bottomListItem'), layout : {type: WinJS.UI.GridLayout}}">
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

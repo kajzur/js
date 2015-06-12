@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-4JTP3DCM4NA</Machine>
+    <WindowsUser>Matt</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>d34b4186-1195-4730-b1f1-da145a56ff4f</PackageIdentityName>
+    <RegisteredManifestChecksum>3F2D2151B38EC25B8FA770B71B90E7EAADEBE4E1C6A565C35ABB0CE2E523C8C0</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>d34b4186-1195-4730-b1f1-da145a56ff4f_1.0.0.0_neutral__4bha6t8v6mmqe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>d34b4186-1195-4730-b1f1-da145a56ff4f_4bha6t8v6mmqe!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>d34b4186-1195-4730-b1f1-da145a56ff4f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Matt</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-01T19:39:25.722</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2015-06-01T19:39:20.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\pages\items\items.css">
+      <PackagePath>pages\items\items.css</PackagePath>
+      <Modified>2015-06-01T19:39:20.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\pages\split\split.css">
+      <PackagePath>pages\split\split.css</PackagePath>
+      <Modified>2015-06-01T19:39:20.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-06-01T19:39:20.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2015-06-01T19:39:20.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\pages\items\items.js">
+      <PackagePath>pages\items\items.js</PackagePath>
+      <Modified>2015-06-01T19:39:20.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\pages\split\split.js">
+      <PackagePath>pages\split\split.js</PackagePath>
+      <Modified>2015-06-01T19:39:20.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\pages\items\items.html">
+      <PackagePath>pages\items\items.html</PackagePath>
+      <Modified>2015-06-01T19:39:20.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\pages\split\split.html">
+      <PackagePath>pages\split\split.html</PackagePath>
+      <Modified>2015-06-01T19:39:20.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2015-06-01T19:41:06.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReader\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-06-01T19:39:25.563</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

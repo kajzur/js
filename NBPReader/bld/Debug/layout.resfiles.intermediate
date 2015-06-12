@@ -1,0 +1,15 @@
+css\default.css
+default.html
+images\logo.scale-100.png
+images\smalllogo.scale-100.png
+images\splashscreen.scale-100.png
+images\storelogo.scale-100.png
+js\data.js
+js\default.js
+js\navigator.js
+pages\items\items.css
+pages\items\items.html
+pages\items\items.js
+pages\split\split.css
+pages\split\split.html
+pages\split\split.js

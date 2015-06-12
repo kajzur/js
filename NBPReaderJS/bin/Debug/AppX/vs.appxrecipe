@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-4JTP3DCM4NA</Machine>
+    <WindowsUser>Matt</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>678ae25c-9423-4fcf-8313-3b85a9464ce1</PackageIdentityName>
+    <RegisteredManifestChecksum>3A7CD16DCC845F455A721EF711A68E3B74D4420F6E15B88CD9E04862CB961B27</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>678ae25c-9423-4fcf-8313-3b85a9464ce1_1.0.0.0_neutral__4bha6t8v6mmqe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>678ae25c-9423-4fcf-8313-3b85a9464ce1_4bha6t8v6mmqe!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>678ae25c-9423-4fcf-8313-3b85a9464ce1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Matt</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-06-01T19:38:08.399</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2015-06-01T19:38:02.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\pages\itemDetail\itemDetail.css">
+      <PackagePath>pages\itemDetail\itemDetail.css</PackagePath>
+      <Modified>2015-06-01T19:38:02.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\pages\groupDetail\groupDetail.css">
+      <PackagePath>pages\groupDetail\groupDetail.css</PackagePath>
+      <Modified>2015-06-01T19:38:02.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\pages\groupedItems\groupedItems.css">
+      <PackagePath>pages\groupedItems\groupedItems.css</PackagePath>
+      <Modified>2015-06-01T19:38:02.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+      <Modified>2013-07-21T20:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-06-01T19:38:02.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2015-06-01T19:38:02.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\pages\itemDetail\itemDetail.js">
+      <PackagePath>pages\itemDetail\itemDetail.js</PackagePath>
+      <Modified>2015-06-01T19:38:02.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\pages\groupDetail\groupDetail.js">
+      <PackagePath>pages\groupDetail\groupDetail.js</PackagePath>
+      <Modified>2015-06-01T19:38:02.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\pages\groupedItems\groupedItems.js">
+      <PackagePath>pages\groupedItems\groupedItems.js</PackagePath>
+      <Modified>2015-06-01T19:38:02.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\pages\itemDetail\itemDetail.html">
+      <PackagePath>pages\itemDetail\itemDetail.html</PackagePath>
+      <Modified>2015-06-01T19:38:02.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\pages\groupDetail\groupDetail.html">
+      <PackagePath>pages\groupDetail\groupDetail.html</PackagePath>
+      <Modified>2015-06-01T19:38:02.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\pages\groupedItems\groupedItems.html">
+      <PackagePath>pages\groupedItems\groupedItems.html</PackagePath>
+      <Modified>2015-06-01T19:38:02.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2015-06-01T19:38:02.175</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Matt\documents\visual studio 2013\Projects\JSApp\NBPReaderJS\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-06-01T19:38:08.066</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
