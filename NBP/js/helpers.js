@@ -44,6 +44,8 @@
         var checker = setInterval(function () {
             if (chartValues === undefined) {
                 clearInterval(checker);
+                new Windows.UI.Popups.MessageDialog(
+            "Bledny zakres dat").showAsync();
                 return;
             };
             if (chartValues.length === validFileNames.length) {
