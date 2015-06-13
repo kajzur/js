@@ -13,9 +13,11 @@
                 Helpers.getFlyElement();
             }
             document.getElementById("header").textContent = Helpers.appName + " - " + options.kod_waluty;
-            var saveFileObj = document.getElementById("saveFile");
+            var drawObj = document.getElementById("draw");
             Helpers.setFlyElement (options);
-            saveFileObj.addEventListener("click", Helpers.drawChart, options);
+            drawObj.addEventListener("click", Helpers.drawChart, options);
+            var saveObj = document.getElementById("saveFile");
+            saveFile.addEventListener("click", Helpers.saveFile);
         }
     });
 

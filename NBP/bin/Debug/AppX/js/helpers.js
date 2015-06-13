@@ -42,6 +42,10 @@
 
         }
         var checker = setInterval(function () {
+            if (chartValues === undefined) {
+                clearInterval(checker);
+                return;
+            };
             if (chartValues.length === validFileNames.length) {
                 clearInterval(checker);
                 afterCallback(chartValues);
@@ -84,7 +88,7 @@
                     if (set[i] > max)
                         max = set[i];
                 }
-                graph.maxValue = max*10;
+                graph.maxValue = max;
                 graph.margin = 3;
                 graph.height = 300;
                 graph.colors = ["grey"];
@@ -94,6 +98,40 @@
 
             });
 
+        });
+    },
+    saveFile: function () {
+        var Imaging = Windows.Graphics.Imaging;
+        var picker = new Windows.Storage.Pickers.FileSavePicker();
+        picker.suggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.picturesLibrary;
+        picker.fileTypeChoices.insert("PNG file", [".png"]);
+        var imgData, fileStream = null;
+        picker.pickSaveFileAsync().then(function (file) {
+            if (file) {
+                return file.openAsync(Windows.Storage.FileAccessMode.readWrite);
+            } else {
+                return WinJS.Promise.wrapError("No file selected");
+            }
+        }).then(function (stream) {
+            fileStream = stream;
+            var canvas = document.getElementById("chart");
+            var ctx = canvas.getContext("2d");
+            imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+
+            return Imaging.BitmapEncoder.createAsync(Imaging.BitmapEncoder.pngEncoderId, stream);
+        }).then(function (encoder) {
+            //Set the pixel data--assume "encoding" object has options from elsewhere
+            var canvas = document.getElementById("chart");
+            encoder.setPixelData(Imaging.BitmapPixelFormat.bgra8, Imaging.BitmapAlphaMode.straight,
+                canvas.width, canvas.height, 0, 0,
+                new Uint8Array(imgData.data));
+            //Go do the encoding
+            return encoder.flushAsync();
+        }).done(function () {
+            //Make sure to do this at the end
+            fileStream.close();
+        }, function () {
+            //Empty error handler (do nothing if the user canceled the picker
         });
     }
 }

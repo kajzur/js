@@ -104,15 +104,18 @@ function BarGraph(ctx) {
         // For each bar
         for (i = 0; i < arr.length; i += 1) {
             // Set the ratio of current bar compared to the maximum
-            var multiplied = arr[i] ;
+            var multiplied = arr[i];
+            var parts = (multiplied + "").split(".");
+            var value = (parts[0] * 1000 + parseInt(parts[1]));
+            var maxParts = (that.maxValue + "").split(".");
+            var valueMax = (maxParts[0] * 1000 + parseInt(maxParts[1]));
             if (that.maxValue) {
-                ratio = multiplied / that.maxValue;
+                ratio = value / valueMax;
             } else {
-                ratio = multiplied / largestValue;
+                ratio = value / largestValue;
             }
-            barHeight = multiplied*50;
-
-
+        
+            barHeight = ratio * maxBarHeight;
 
             // Turn on shadow
             ctx.shadowOffsetX = 2;
